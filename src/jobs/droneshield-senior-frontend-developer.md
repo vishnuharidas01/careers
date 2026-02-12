@@ -86,48 +86,48 @@ Git, EAS, Firebase, Stripe Payments, Unix/Linux Environments
 **Art Flaneur | Full Stack Developer (Freelance) | Melbourne, VIC**
 Nov 2025 – Present
 
-• Architecting and maintaining a client-facing ticketing system integrated with secure backend services.
-• Engineered a schema-aware solution to resolve critical GraphQL build and test failures, enabling reliable local development and eliminating cloud dependency blockers.
-• Decoupled AWS AppSync production schemas from local Apollo Server environments, improving development velocity and distributed workflow stability.
-• Implemented targeted automated testing with 100% test pass rate to validate schema changes and prevent regressions.
-• Took operational responsibility for backend service reliability, build stability, and deployment workflows.
+* Architecting and maintaining a client-facing ticketing system integrated with secure backend services.
+* Engineered a schema-aware solution to resolve critical GraphQL build and test failures, enabling reliable local development and eliminating cloud dependency blockers.
+* Decoupled AWS AppSync production schemas from local Apollo Server environments, improving development velocity and distributed workflow stability.
+* Implemented targeted automated testing with 100% test pass rate to validate schema changes and prevent regressions.
+* Took operational responsibility for backend service reliability, build stability, and deployment workflows.
 
 **Business Local | Full Stack Developer | Melbourne, VIC**
 Jul 2025 – Nov 2025
 
-• Integrated Android application with Laravel backend using REST APIs and WebSockets (Pusher) for real-time SMS triggering.
-• Collaborated across frontend and backend teams to ensure reliable distributed communication.
-• Contributed to SQL-backed web application development and production issue resolution.
+* Integrated Android application with Laravel backend using REST APIs and WebSockets (Pusher) for real-time SMS triggering.
+* Collaborated across frontend and backend teams to ensure reliable distributed communication.
+* Contributed to SQL-backed web application development and production issue resolution.
 
 **Kois.ai | Senior React Native Developer | Melbourne, VIC**
 Jun 2024 – Dec 2024
 
-• Designed and developed scalable cross-platform applications using TypeScript and React Native.
-• Implemented reusable modules and clean architectural patterns to improve maintainability and consistency.
-• Integrated AWS services including authentication, storage, and serverless functions within distributed environments.
-• Led code reviews and enforced engineering best practices including automated testing and structured CI/CD workflows.
+* Designed and developed scalable cross-platform applications using TypeScript and React Native.
+* Implemented reusable modules and clean architectural patterns to improve maintainability and consistency.
+* Integrated AWS services including authentication, storage, and serverless functions within distributed environments.
+* Led code reviews and enforced engineering best practices including automated testing and structured CI/CD workflows.
 
 **QBurst Technologies | Lead Software Developer – iOS | Kochi**
 Aug 2022 – Jan 2024
 
-• Led iOS module development and performance optimisation initiatives.
-• Collaborated with backend and UI teams to deliver scalable enterprise-grade applications.
-• Enforced high code quality standards and mentored engineers in sound engineering practices.
+* Led iOS module development and performance optimisation initiatives.
+* Collaborated with backend and UI teams to deliver scalable enterprise-grade applications.
+* Enforced high code quality standards and mentored engineers in sound engineering practices.
 
 **PinMicro | Senior Software Developer – Mobile | Kochi**
 Jun 2021 – Jul 2022
 
-• Enhanced BLE communication stack and expanded support for UWB-enabled devices in distributed IoT systems.
-• Built custom native modules and integrated them with cross-platform layers.
-• Implemented offline-first architecture ensuring full data reliability in remote environments.
-• Managed App Store releases with a 95% first-time approval rate.
+* Enhanced BLE communication stack and expanded support for UWB-enabled devices in distributed IoT systems.
+* Built custom native modules and integrated them with cross-platform layers.
+* Implemented offline-first architecture ensuring full data reliability in remote environments.
+* Managed App Store releases with a 95% first-time approval rate.
 
 **Logical Steps Interactive Solutions | Mobile Application Developer | Kochi**
 Dec 2015 – Jun 2021
 
-• Developed and maintained multiple iOS applications with secure backend integrations.
-• Implemented push notifications, video calling features, and Web Services integrations.
-• Managed App Store deployments and release lifecycle processes.
+* Developed and maintained multiple iOS applications with secure backend integrations.
+* Implemented push notifications, video calling features, and Web Services integrations.
+* Managed App Store deployments and release lifecycle processes.
 
 ---
 
