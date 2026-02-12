@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>{{ name }} — Cover Letter</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 40px; line-height: 1.45; }
+    h1 { margin: 0 0 10px; font-size: 18px; }
+    .meta { color: #444; font-size: 12px; margin-bottom: 18px; }
+    .letter { font-size: 13px; }
+  </style>
+</head>
+<body>
+  <h1>Cover Letter</h1>
+  <div class="meta">
+    {{ name }} · {{ email }} · {{ phone }} · {{ location }}<br/>
+    Role: {{ role }} · Company: {{ company }}
+  </div>
+
+  <div class="letter">
+    {{ coverHtml | safe }}
+  </div>
+</body>
+</html>

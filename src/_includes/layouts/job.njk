@@ -16,13 +16,15 @@ layout: layouts/base.njk
     <h2>Contact</h2>
     {% if contact.email %}<div>Email: <a href="mailto:{{ contact.email }}">{{ contact.email }}</a></div>{% endif %}
     {% if contact.linkedin %}<div>LinkedIn: <a href="{{ contact.linkedin }}" target="_blank" rel="noopener">{{ contact.linkedin }}</a></div>{% endif %}
+    {% if contact.github %}<div>GitHub: <a href="{{ contact.github }}" target="_blank" rel="noopener">{{ contact.github }}</a></div>{% endif %}
   </div>
 {% endif %}
 
-{% if downloads and downloads.resumePdf %}
+{% if downloads and (downloads.resumeUrl or downloads.coverLetterUrl) %}
   <div class="card">
     <h2>Downloads</h2>
-    <div><a href="{{ downloads.resumePdf }}">Resume (PDF)</a></div>
-    {% if downloads.coverPdf %}<div><a href="{{ downloads.coverPdf }}">Cover letter (PDF)</a></div>{% endif %}
+    {% if downloads.resumeUrl %}<div><a href="{{ downloads.resumeUrl }}" target="_blank" rel="noopener">Resume (PDF)</a></div>{% endif %}
+    {% if downloads.coverLetterUrl %}<div><a href="{{ downloads.coverLetterUrl }}" target="_blank" rel="noopener">Cover Letter (PDF)</a></div>{% endif %}
   </div>
 {% endif %}
+

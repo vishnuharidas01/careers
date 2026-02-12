@@ -1,0 +1,136 @@
+{
+  "name": "Vishnu Haridas",
+  "title": "Mobile Applications Developer",
+  "location": "Sydney, NSW, Australia",
+  "phone": "+61 499196618",
+  "email": "vishnuharidas01@gmail.com",
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/vishnu-haridas-591837109/",
+    "github": "https://github.com/vishnuharidas01"
+  },
+  "summary": "Mobile Lead Developer with 9+ years of experience delivering enterprise-grade mobile applications using React Native and native iOS/Android. Experienced in scalable architecture, CI/CD, cloud integration, and mentoring teams.",
+  "skills": {
+    "mobile": [
+      "React Native",
+      "TypeScript",
+      "Expo",
+      "Swift",
+      "SwiftUI",
+      "UIKit",
+      "Kotlin",
+      "Cross-platform testing",
+      "Performance optimization"
+    ],
+    "backend_cloud": [
+      "AWS",
+      "Lambda",
+      "GraphQL",
+      "Firebase",
+      "API development"
+    ],
+    "tooling": [
+      "Git",
+      "Jest",
+      "CI/CD",
+      "EAS",
+      "Stripe payments"
+    ],
+    "specialised": [
+      "BLE",
+      "IoT",
+      "Offline storage",
+      "CoreData",
+      "Unit testing"
+    ]
+  },
+  "experience": [
+    {
+      "company": "Art Flaneur",
+      "role": "Full Stack Developer (Freelance)",
+      "location": "Melbourne",
+      "start": "2025-11",
+      "end": "Present",
+      "highlights": [
+        "Developing ticketing system for mobile app",
+        "Resolved GraphQL payment service build failures",
+        "Enabled local development without AWS AppSync",
+        "Implemented unit tests with 100% pass rate"
+      ]
+    },
+    {
+      "company": "Business Local",
+      "role": "Full Stack Developer",
+      "location": "Melbourne",
+      "start": "2025-07",
+      "end": "2025-11",
+      "highlights": [
+        "Integrated Android app with Laravel backend",
+        "Implemented real-time SMS via WebSockets",
+        "Worked with SQL, APIs, and Laravel"
+      ]
+    },
+    {
+      "company": "Kois.ai",
+      "role": "Senior React Native Developer",
+      "location": "Melbourne",
+      "start": "2024-06",
+      "end": "2024-12",
+      "highlights": [
+        "Built scalable React Native apps using Expo",
+        "Implemented MVVM/Clean architecture",
+        "Integrated LLM features",
+        "Mentored developers and improved testing"
+      ]
+    },
+    {
+      "company": "QBurst",
+      "role": "Lead iOS Developer",
+      "location": "Kochi",
+      "start": "2022-08",
+      "end": "2024-01",
+      "highlights": [
+        "Led iOS development and performance improvements",
+        "Mentored junior engineers",
+        "Conducted code reviews and hiring"
+      ]
+    },
+    {
+      "company": "PinMicro",
+      "role": "Senior Mobile Developer",
+      "location": "Kochi",
+      "start": "2021-06",
+      "end": "2022-07",
+      "highlights": [
+        "Built BLE and UWB integrations",
+        "Created offline-first architecture",
+        "Led App Store releases with 95% approval rate"
+      ]
+    },
+    {
+      "company": "Logical Steps",
+      "role": "Mobile Application Developer",
+      "location": "Kochi",
+      "start": "2015-12",
+      "end": "2021-06",
+      "highlights": [
+        "Developed multiple iOS apps",
+        "Implemented push notifications and video calls",
+        "Managed App Store deployments"
+      ]
+    }
+  ],
+  "education": {
+    "degree": "Bachelor of Electronics and Communication Engineering",
+    "university": "Mahatma Gandhi University",
+    "years": "2010-2014"
+  },
+  "notable_projects": [
+    "Pinmicro Device Manager",
+    "ExhibitorPlus",
+    "bSynapse",
+    "LiveShowrooms",
+    "Sepalika",
+    "LNNDO",
+    "StarPlan"
+  ]
+}

@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "eleventy --serve",
-    "build": "eleventy"
+    "build": "eleventy",
+    "new:job": "node scripts/new-job.js",
+    "pdf:job": "node scripts/render-pdf.js"
   },
   "keywords": [
     "eleventy",
@@ -16,6 +18,12 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@11ty/eleventy": "^3.1.2"
+    "@11ty/eleventy": "^3.1.2",
+    "playwright": "^1.58.2"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "markdown-it": "^14.1.1",
+    "nunjucks": "^3.2.4"
   }
 }
