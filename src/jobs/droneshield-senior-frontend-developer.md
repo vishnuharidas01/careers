@@ -46,9 +46,6 @@ Freelance and scale-up experience delivering features from conceptualisation to 
 **Component-Driven & Workflow Simplification**
 Implemented reusable forms, schema-driven validation, modular UI systems, and performance optimisations aligned with streamlined user experience goals similar to a “one-click” philosophy.
 
-**Aligned with ATS Best Practices**
-Resume structured according to ATS formatting standards  and based strictly on verified profile and resume data  .
-
 **Keyword Pack:**
 TypeScript, React, Web Application Development, REST APIs, WebSockets, Distributed Systems, Microservices Infrastructure, Unix/Linux, AWS, Continuous Delivery, Automated Testing, Security Software Development, Docker, GitLab, Redux.
 
