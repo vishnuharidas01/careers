@@ -13,95 +13,125 @@ contact:
 # IMPORTANT: After you generate PDFs + upload to Google Drive,
 # replace these with Drive share links (not local paths)
 downloads:
-  resumeUrl: "/careers/downloads/mufg-retirement-solutions-mobile-application-developer-resume.pdf"
-  coverLetterUrl: "/careers/downloads/mufg-retirement-solutions-mobile-application-developer-cover-letter.pdf"
+  resumeUrl: "/downloads/mufg-retirement-solutions-mobile-application-developer-resume.pdf"
+  coverLetterUrl: "/downloads/mufg-retirement-solutions-mobile-application-developer-cover-letter.pdf"
 ---
 
 ## Summary
 
-Mobile Lead Developer with 9+ years of experience delivering enterprise-grade iOS and cross-platform mobile applications. Strong background in React Native, native iOS, scalable architecture, CI/CD automation, cloud integration, and release governance. Experienced leading mobile teams, enforcing quality standards, and building high-performance consumer-facing apps aligned with security and compliance requirements. Based in Sydney, open to Parramatta or Melbourne locations.
+Senior Mobile Application Developer with 9+ years of experience building and managing consumer mobile applications across iOS and Android. Proven expertise in **React Native and JavaScript**, delivering high-performance, scalable, client-facing mobile applications aligned with enterprise governance, security, and release management standards. Experienced in CI/CD (Continuous Integration / Continuous Deployment), DevOps automation, API integration, performance optimization, and maintaining structured change management and configuration management processes.
 
 ---
 
 ## Why I'm a fit
 
-**1. 9+ Years Building Consumer Mobile Apps**
-Extensive experience delivering production-grade iOS and cross-platform applications across finance, IoT, and enterprise domains. Led end-to-end mobile delivery including architecture, development, testing, deployment, and App Store releases.
+**Build and maintain client-facing mobile applications**
+Over 9 years delivering consumer-facing mobile applications across iOS and Android using React Native, Swift, and Kotlin. Led architecture decisions, performance optimization initiatives, and App Store releases for production-grade applications.
 
-**2. React Native & Cross-Platform Expertise**
-Built scalable React Native applications using TypeScript and Expo with Clean Architecture/MVVM patterns. Delivered performance-optimised apps across Android and iOS with strong focus on responsiveness and user experience.
+**React Native & JavaScript expertise**
+Extensive hands-on development using React Native, TypeScript, and JavaScript for cross-platform mobile applications. Delivered scalable, user-friendly mobile apps optimized for performance, responsiveness, and consistent user experience across devices and OS versions.
 
-**3. CI/CD & DevOps Mindset**
-Hands-on experience with CI/CD pipelines, automated builds, unit testing (Jest), release management, and production deployment workflows. Strong understanding of repeatable configuration management and deployment discipline.
+**DevOps & CI/CD automation**
+Implemented CI/CD (Continuous Integration / Continuous Deployment) pipelines using EAS and Git-based workflows. Standardized release processes and automated build and deployment flows. While primary CI/CD experience has been within AWS and EAS environments, the principles of pipeline automation and release governance directly translate to Azure DevOps CI/CD pipelines.
 
-**4. API Integration & Backend Collaboration**
-Integrated mobile apps with GraphQL, REST APIs, Firebase, and AWS Lambda services. Worked on payment systems and secure backend communication patterns. While direct Azure DevOps exposure is limited, strong CI/CD and cloud experience makes transition straightforward.
+**API Integration & .NET transferability**
+Integrated mobile applications with backend services using REST APIs and GraphQL. While direct .NET API integration is not listed in my background, the secure API integration patterns, authentication handling, and downstream system integrations are transferable to .NET API environments.
 
-**5. Security & Governance Awareness**
-Implemented secure payment integrations (Stripe), handled encryption workflows, and worked with app store configuration and release compliance. Experienced in applying architectural governance and maintaining technical documentation.
+**Cyber Security & Governance**
+Applied mobile security best practices including secure API integration, encrypted data handling, and authentication workflows. Maintained documentation, aligned development practices with security and data privacy guidelines, and managed App Store configuration and developer accounts.
 
-**6. Architecture & Integration Experience**
-Designed offline-first architectures, BLE integrations, and scalable mobile modules. Strong understanding of system architecture, downstream integrations, and performance tuning.
+**Testing & Quality Engineering**
+Proficient in unit testing and system integration testing across all phases of the development cycle using Jest, XCTest, and cross-platform testing tools. Ensured regression-free deployments and improved reliability before release.
 
-**7. Leadership & Collaboration**
-Led iOS teams, conducted code reviews, mentored developers, and collaborated across product and backend teams to deliver end-to-end solutions.
+**Collaboration & Communication**
+Collaborated with cross-functional teams including backend, UI, QA, and product stakeholders. Mentored engineers, conducted code reviews, and articulated technical issues and solutions clearly within Agile environments.
 
-### Keyword Pack
-
-React Native, JavaScript, Mobile Architecture, CI/CD, DevOps Automation, API Integration, Cyber Security, Azure DevOps (transferable CI/CD experience), Performance Optimization, App Store Governance
+**Keyword Pack:** React Native, JavaScript, CI/CD, Azure DevOps, Configuration Management, DevOps Automation, .NET API Integration, Cyber Security, System Integration Testing, Release Management, Change Management, Mobile Architecture, App Store Governance, Client-Facing Mobile Applications
 
 ---
 
 ## Resume
 
-### Highlights
+### Professional Summary
 
-* 9+ years building enterprise and consumer mobile applications
-* Lead iOS Developer and Senior React Native Developer experience
-* Strong React Native (TypeScript) and native iOS (Swift, SwiftUI, UIKit)
-* CI/CD implementation and automated testing practices
-* Experience integrating payment systems and cloud services
-* Proven leadership, mentoring, and release management experience
+Senior Mobile Application Developer with 9+ years of experience building and managing consumer mobile applications using React Native and native iOS technologies. Expertise in high-performance, scalable mobile architecture, CI/CD automation, API integration, and secure mobile development. Experienced in aligning mobile engineering practices with DevOps, configuration management, release guidelines, and security governance standards in fast-paced environments.
 
-### Experience
+---
 
-**Full Stack Developer (Freelance) – Art Flaneur, Melbourne (2025–Present)**
+### Technical Skills
 
-* Developing mobile ticketing system and payment integrations
-* Resolved GraphQL payment service build failures
-* Enabled local development environments decoupled from AWS AppSync
-* Implemented comprehensive unit testing with full pass coverage
+**Mobile Development**
+React Native, JavaScript, TypeScript, Swift, SwiftUI, UIKit, Kotlin, Cross-platform mobile applications, Performance optimization, Client-facing mobile applications
 
-**Full Stack Developer – Business Local, Melbourne (2025)**
+**DevOps & CI/CD**
+CI/CD (Continuous Integration / Continuous Deployment), DevOps automation, Release Management, Configuration Management, EAS, Git-based workflows, Build and deployment pipelines, Azure DevOps (transferable pipeline experience)
 
-* Integrated Android app with Laravel backend
-* Implemented real-time messaging via WebSockets
-* Worked extensively with SQL and API integrations
+**Backend & API Integration**
+REST APIs, GraphQL, Secure API Integration, AWS Lambda, Firebase, API development, Downstream system integration patterns
 
-**Senior React Native Developer – Kois.ai, Melbourne (2024)**
+**Security & Governance**
+Mobile Security Best Practices, Secure data handling, Authentication workflows, App Store configuration and developer account management, Documentation and deployment procedures, Alignment with security and data privacy guidelines
 
-* Built scalable React Native apps using Expo
-* Implemented MVVM and Clean Architecture patterns
-* Improved testing practices and code quality
-* Mentored developers and supported architecture decisions
+**Testing & Quality Engineering**
+Unit testing, System Integration Testing, Jest, XCTest, Cross-platform testing, Regression testing
 
-**Lead iOS Developer – QBurst, Kochi (2022–2024)**
+**Tools & Platforms**
+AWS, Lambda, Firebase, Stripe payments, Git, Expo, CoreData
 
-* Led iOS development for enterprise-grade applications
-* Conducted code reviews and mentored junior engineers
-* Improved app performance and release stability
+---
 
-**Senior Mobile Developer – PinMicro, Kochi (2021–2022)**
+### Professional Experience
 
-* Built BLE and UWB-based mobile integrations
-* Designed offline-first architecture
-* Managed App Store releases and compliance
+**Art Flaneur | Full Stack Developer (Freelance) | Melbourne, VIC | Nov 2025 – Present**
 
-**Mobile Application Developer – Logical Steps, Kochi (2015–2021)**
+* Architected and maintained a client-facing mobile ticketing system integrated with secure backend services and downstream applications.
+* Engineered configuration changes to resolve GraphQL payment service build failures, improving reliability of Dev and Test environments.
+* Implemented unit testing and system integration testing to ensure regression-free deployments aligned with structured release processes.
+* Standardized local development workflows and deployment procedures to reduce reliance on cloud-only environments.
+* Maintained documentation aligned with development and deployment standards.
 
-* Developed multiple iOS applications
-* Implemented push notifications and video calling features
-* Managed App Store deployments and updates
+**Business Local | Full Stack Developer | Melbourne, VIC | Jul 2025 – Nov 2025**
+
+* Integrated Android mobile application with backend APIs using structured API integration patterns.
+* Delivered real-time communication functionality using WebSocket-based solutions to enhance responsiveness and user experience.
+* Collaborated with cross-functional teams to ensure seamless backend–frontend integration and application performance optimization.
+* Contributed within Agile sprint cycles, adapting to evolving priorities in a fast-paced business environment.
+
+**Kois.ai | Senior React Native Developer | Melbourne, VIC | Jun 2024 – Dec 2024**
+
+* Built and maintained high-performance, scalable mobile applications using React Native across Android and iOS.
+* Implemented Clean Architecture and MVVM patterns to support maintainability and governance standards.
+* Integrated mobile apps with backend services through secure API integration.
+* Led code reviews and established best practices for mobile app development aligned with quality and configuration management standards.
+* Contributed to DevOps automation improvements and structured deployment workflows.
+
+**QBurst Technologies | Lead Software Developer – iOS | Kochi | Aug 2022 – Jan 2024**
+
+* Led iOS development initiatives, optimizing application performance and responsiveness across devices.
+* Governed code quality standards through structured reviews and mentoring.
+* Collaborated with UI and backend teams to deliver end-to-end mobile solutions for enterprise clients.
+* Contributed to structured release and change management processes.
+
+**PinMicro | Senior Mobile Developer | Kochi | Jun 2021 – Jul 2022**
+
+* Engineered BLE and UWB integrations for enterprise-grade mobile applications.
+* Designed offline-first mobile architecture using CoreData to ensure reliable data handling.
+* Managed App Store configuration, developer account processes, and release submissions with high first-time approval rate.
+* Optimized performance and battery-level monitoring features for enhanced user experience.
+
+**Logical Steps Interactive Solutions | Mobile Application Developer | Kochi | Dec 2015 – Jun 2021**
+
+* Developed and maintained consumer mobile applications for iOS and React Native platforms.
+* Integrated push notifications, video calling, and secure API-driven features.
+* Managed App Store deployments, release documentation, and ongoing software maintenance.
+* Collaborated across teams to deliver user-friendly mobile solutions aligned with client requirements.
+
+---
+
+### Education
+
+Bachelor of Electronics and Communication Engineering
+Mahatma Gandhi University | 2010 – 2014
 
 ---
 
@@ -109,89 +139,15 @@ React Native, JavaScript, Mobile Architecture, CI/CD, DevOps Automation, API Int
 
 Dear Hiring Manager,
 
-I am applying for the Mobile Application Developer role within MUFG Retirement Solutions. With over nine years of experience delivering enterprise-grade mobile applications across iOS and React Native platforms, I bring a strong foundation in building secure, scalable, and high-performance consumer-facing apps.
+I am applying for the Mobile Application Developer role within MUFG Retirement Solutions. With over nine years of experience building and managing consumer mobile applications across iOS and Android, I bring strong expertise in React Native, JavaScript, and enterprise-grade mobile engineering practices.
 
-Throughout my career, I have led mobile development initiatives spanning architecture design, feature development, CI/CD automation, and release management. Most recently, I have been building and maintaining cross-platform mobile applications using React Native and TypeScript, implementing clean architecture patterns to ensure maintainability and scalability. I have also led iOS development teams, conducted code reviews, and mentored engineers to improve code quality and delivery consistency.
+Throughout my career, I have built and maintained client-facing mobile applications focused on performance, scalability, and user experience. My work has involved integrating mobile apps with backend services using secure API integration patterns, implementing unit and system integration testing, and ensuring structured release management aligned with governance standards.
 
-I have hands-on experience integrating mobile apps with backend systems through GraphQL and REST APIs, implementing secure payment workflows, and maintaining strong release discipline aligned with governance requirements. My work has consistently focused on performance optimisation, responsiveness across devices, and delivering reliable production deployments through structured CI/CD pipelines.
+I have implemented CI/CD (Continuous Integration / Continuous Deployment) pipelines and DevOps automation workflows to streamline build and deployment processes. While my direct experience has primarily involved AWS and EAS-based pipelines, the automation, configuration management, and release governance principles are directly transferable to Azure DevOps CI/CD pipelines. I am comfortable working within structured change management procedures and maintaining documentation aligned with security and data privacy guidelines.
 
-I am particularly drawn to this role because of its emphasis on DevOps maturity, repeatable configuration management, and collaboration across technology teams. My background in cross-functional delivery, combined with a disciplined engineering mindset, aligns strongly with MUFG’s focus on high-quality, compliant, and scalable digital member experiences.
+In previous roles, I have collaborated closely with UI, backend, QA, and product stakeholders to deliver end-to-end mobile solutions. I have led code reviews, mentored engineers, and contributed to best practice standards for mobile app development. My approach emphasizes high-quality code, secure development practices, and continuous improvement in DevOps and deployment efficiency.
 
-I am based in Sydney and open to Parramatta or Melbourne locations. I would welcome the opportunity to contribute to MUFG Retirement Solutions and help strengthen its mobile platform capabilities.
+I am motivated by the opportunity to contribute to MUFG’s digital and member experience product offerings and to support the Retirement Solutions technology team in delivering reliable, scalable, and secure mobile applications.
 
 Kind regards,
 Vishnu Haridas
-
----
-
-## Job Description
-
-We are looking for mobile application developers whose primary responsibility is to develop and maintain the MUFG Retirement Solutions client facing mobile apps, including new feature development, configuration management and ongoing software maintenance. In addition, the role will collaborate with delivery teams for other Retirement Solutions’ applications and provide guidance on best practice for mobile app development.
-
-Permanent role, multiple vacancies
-Location flexible to be based in Parramatta or Melbourne
-
-In this role you will be responsible and accountable to:
-
-* Build and maintain the MUFG Retirement Solutions (RS) client-facing mobile applications as a key element of MUFG’s digital and member experience product offerings.
-* Champion rapid implementation ways of working and consistent repeatable configuration management processes to achieve efficient and high-quality deployments
-* Drive continuous improvement in DevOps including automation and assisted tools for Dev, Test and deployment
-* Build and maintain high-performance, scalable, user-friendly mobile applications using React Native across Android and iOS
-* Maintain and optimize Azure DevOps CI/CD pipelines for seamless mobile app build and deployment.
-* Utilise the approved development, test and deployment tools within the MUFG RS technology team
-* Integration mobile apps with downstream applications via approved MUFG RS Technology integration patterns and solutions
-* Build for optimal application performance, responsiveness, user experience across different devices and OS
-* Apply the approved MUFG cyber security and solution architecture governance and app store configuration and developer account management
-* Collaborate with colleagues across RS Technology to deliver end-to-end solutions for clients
-* Meet all requirements of MUFG Software Development, security and data privacy guidelines and keep documentation and procedures up to date
-* Work within MUFG RS Technology release guidelines and change management procedures
-
-Experience & Personal Attributes
-
-* Minimum 8 years’ experience of building and managing consumer mobile applications
-* Proficiency in React Native and Javascript
-* Expert in producing high quality code for Mobile (Android and iOS) based applications
-* Experienced in .Net API integration and Cyber Security
-* Proficient in unit and system integration testing across all phases of the development cycle
-* Proficient in clearly and concisely articulating issues and solutions
-* Knowledge of system architecture and technology integration
-* Excellent communication skills and collaboration mindset
-* Able to work in a fast-paced business environment and adapt to evolving priorities.
-
-
-## Job Description
-We are looking for mobile application developers whose primary responsibility is to develop and maintain the MUFG Retirement Solutions client facing mobile apps, including new feature development, configuration management and ongoing software maintenance. In addition, the role will collaborate with delivery teams for other Retirement Solutions’ applications and provide guidance on best practice for mobile app development.
-
-
-
-Permanent role, multiple vacancies
-Location flexible to be based in Parramatta or Melbourne
-
-
-In this role you will be responsible and accountable to:
-
-Build and maintain the MUFG Retirement Solutions (RS) client-facing mobile applications as a key element of MUFG’s digital and member experience product offerings.
-Champion rapid implementation ways of working and consistent repeatable configuration management processes to achieve efficient and high-quality deployments
-Drive continuous improvement in DevOps including automation and assisted tools for Dev, Test and deployment
-Build and maintain high-performance, scalable, user-friendly mobile applications using React Native across Android and iOS
-Maintain and optimize Azure DevOps CI/CD pipelines for seamless mobile app build and deployment.
-Utilise the approved development, test and deployment tools within the MUFG RS technology team
-Integration mobile apps with downstream applications via approved MUFG RS Technology integration patterns and solutions
-Build for optimal application performance, responsiveness, user experience across different devices and OS
-Apply the approved MUFG cyber security and solution architecture governance and app store configuration and developer account management
-Collaborate with colleagues across RS Technology to deliver end-to-end solutions for clients
-Meet all requirements of MUFG Software Development, security and data privacy guidelines and keep documentation and procedures up to date
-Work within MUFG RS Technology release guidelines and change management procedures
-
-
-Experience & Personal Attributes
-
-Minimum 8 years’ experience of building and managing consumer mobile applications
-Proficiency in React Native and Javascript
-Expert in producing high quality code for Mobile (Android and iOS) based applications
-Experienced in .Net API integration and Cyber Security
-Proficient in unit and system integration testing across all phases of the development cycle
-Proficient in clearly and concisely articulating issues and solutions
-Knowledge of system architecture and technology integration
-Excellent communication skills and collaboration mindset
-Able to work in a fast-paced business environment and adapt to evolving priorities.

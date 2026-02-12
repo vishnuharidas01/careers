@@ -20,11 +20,36 @@ function getArg(flag) {
   return i >= 0 ? process.argv[i + 1] : undefined;
 }
 
-function extractSection(md, heading) {
-  // naive but effective: grab content between "## Heading" and next "## "
-  const re = new RegExp(`^##\\s+${heading}\\s*\\n([\\s\\S]*?)(?=^##\\s+|\\s*$)`, "m");
-  const m = md.match(re);
-  return m ? m[1].trim() : "";
+/**
+ * Extracts section content between a matching "## ..." heading and the next "##" or EOF.
+ * keywordRegex is inserted into the heading match, e.g. "resume" or "cover\\s*letter"
+ */
+function extractSectionExact(md, sectionName) {
+  const start = md.indexOf(`## ${sectionName}`);
+  if (start === -1) return "";
+
+  const afterStart = md.slice(start + (`## ${sectionName}`).length);
+
+  const nextSectionMatch = afterStart.match(/\n##\s+/);
+  const end = nextSectionMatch
+    ? start + (`## ${sectionName}`).length + nextSectionMatch.index
+    : md.length;
+
+  return md.slice(start + (`## ${sectionName}`).length, end).trim();
+}
+
+
+async function htmlToPdf(page, htmlPath, pdfPath) {
+  await page.goto(`file://${htmlPath}`, { waitUntil: "networkidle" });
+  await page.emulateMedia({ media: "print" });
+  await page.waitForTimeout(300);
+
+  await page.pdf({
+    path: pdfPath,
+    format: "A4",
+    printBackground: true,
+    preferCSSPageSize: true
+  });
 }
 
 (async function main() {
@@ -55,8 +80,8 @@ function extractSection(md, heading) {
   const { data: fm, content } = matter(jobRaw);
   const profile = JSON.parse(fs.readFileSync(profilePath, "utf8"));
 
-  const resumeMd = extractSection(content, "Resume");
-  const coverMd = extractSection(content, "Cover Letter");
+  const resumeMd = extractSectionExact(content, "Resume");
+const coverMd = extractSectionExact(content, "Cover Letter");
 
   if (!resumeMd) {
     console.error(`No "## Resume" section found in ${jobPath}`);
@@ -66,6 +91,10 @@ function extractSection(md, heading) {
     console.error(`No "## Cover Letter" section found in ${jobPath}`);
     process.exit(1);
   }
+
+  // Debug: if these are tiny, your markdown is the problem, not PDF rendering
+  console.log("Resume chars:", resumeMd.length);
+  console.log("Cover chars:", coverMd.length);
 
   const md = new MarkdownIt({ html: false, linkify: true });
 
@@ -101,11 +130,8 @@ function extractSection(md, heading) {
   try {
     const page = await browser.newPage();
 
-    await page.goto(`file://${resumeTmp}`, { waitUntil: "load" });
-    await page.pdf({ path: resumePdf, format: "A4", printBackground: true });
-
-    await page.goto(`file://${coverTmp}`, { waitUntil: "load" });
-    await page.pdf({ path: coverPdf, format: "A4", printBackground: true });
+   await htmlToPdf(page, resumeTmp, resumePdf);
+await htmlToPdf(page, coverTmp, coverPdf);
 
     console.log("✅ PDFs created:");
     console.log(" -", resumePdf);

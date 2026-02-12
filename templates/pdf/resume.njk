@@ -4,24 +4,75 @@
   <meta charset="utf-8" />
   <title>{{ name }} — Resume</title>
   <style>
-    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 40px; line-height: 1.35; }
-    h1 { margin: 0 0 6px; font-size: 22px; }
-    .meta { color: #444; font-size: 12px; margin-bottom: 14px; }
-    h2 { font-size: 14px; margin: 18px 0 8px; border-bottom: 1px solid #ddd; padding-bottom: 4px; }
-    ul { margin: 6px 0 0 18px; }
-    li { margin: 4px 0; }
-    .small { font-size: 12px; color: #444; }
+    @page {
+      size: A4;
+      margin: 14mm;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 12px;
+      line-height: 1.45;
+      color: #000;
+    }
+
+    h1 {
+      font-size: 20px;
+      margin-bottom: 4px;
+    }
+
+    h2 {
+      font-size: 13px;
+      margin-top: 16px;
+      margin-bottom: 6px;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 3px;
+      page-break-after: avoid;
+    }
+
+    h3 {
+      font-size: 12px;
+      margin-top: 10px;
+      margin-bottom: 4px;
+      page-break-after: avoid;
+    }
+
+    p {
+      margin: 4px 0;
+    }
+
+    ul {
+      margin: 4px 0 4px 16px;
+    }
+
+    li {
+      margin-bottom: 3px;
+    }
+
+    .meta {
+      font-size: 11px;
+      margin-bottom: 10px;
+    }
+
+    /* Allow content to naturally span pages */
+    * {
+      page-break-inside: auto;
+    }
+
+    .avoid-break {
+      page-break-inside: avoid;
+    }
   </style>
 </head>
 <body>
+
   <h1>{{ name }}</h1>
+
   <div class="meta">
     {{ title }} · {{ location }} · {{ email }} · {{ phone }}<br/>
     LinkedIn: {{ links.linkedin }} · GitHub: {{ links.github }}
   </div>
 
-  <h2>Tailored Highlights</h2>
-  <div class="small">{{ role }} @ {{ company }}</div>
   {{ resumeHtml | safe }}
 
 </body>

@@ -4,25 +4,142 @@
   <meta charset="utf-8" />
   <title>Vishnu Haridas — Resume</title>
   <style>
-    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 40px; line-height: 1.35; }
-    h1 { margin: 0 0 6px; font-size: 22px; }
-    .meta { color: #444; font-size: 12px; margin-bottom: 14px; }
-    h2 { font-size: 14px; margin: 18px 0 8px; border-bottom: 1px solid #ddd; padding-bottom: 4px; }
-    ul { margin: 6px 0 0 18px; }
-    li { margin: 4px 0; }
-    .small { font-size: 12px; color: #444; }
+    @page {
+      size: A4;
+      margin: 14mm;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 12px;
+      line-height: 1.45;
+      color: #000;
+    }
+
+    h1 {
+      font-size: 20px;
+      margin-bottom: 4px;
+    }
+
+    h2 {
+      font-size: 13px;
+      margin-top: 16px;
+      margin-bottom: 6px;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 3px;
+      page-break-after: avoid;
+    }
+
+    h3 {
+      font-size: 12px;
+      margin-top: 10px;
+      margin-bottom: 4px;
+      page-break-after: avoid;
+    }
+
+    p {
+      margin: 4px 0;
+    }
+
+    ul {
+      margin: 4px 0 4px 16px;
+    }
+
+    li {
+      margin-bottom: 3px;
+    }
+
+    .meta {
+      font-size: 11px;
+      margin-bottom: 10px;
+    }
+
+    /* Allow content to naturally span pages */
+    * {
+      page-break-inside: auto;
+    }
+
+    .avoid-break {
+      page-break-inside: avoid;
+    }
   </style>
 </head>
 <body>
+
   <h1>Vishnu Haridas</h1>
+
   <div class="meta">
     Mobile Applications Developer · Sydney, NSW, Australia · vishnuharidas01@gmail.com · +61 499196618<br/>
     LinkedIn: https://www.linkedin.com/in/vishnu-haridas-591837109/ · GitHub: https://github.com/vishnuharidas01
   </div>
 
-  <h2>Tailored Highlights</h2>
-  <div class="small">Mobile Application Developer @ MUFG Retirement Solutions</div>
-  <h3>Highlights</h3>
+  <h3>Professional Summary</h3>
+<p>Senior Mobile Application Developer with 9+ years of experience building and managing consumer mobile applications using React Native and native iOS technologies. Expertise in high-performance, scalable mobile architecture, CI/CD automation, API integration, and secure mobile development. Experienced in aligning mobile engineering practices with DevOps, configuration management, release guidelines, and security governance standards in fast-paced environments.</p>
+<hr>
+<h3>Technical Skills</h3>
+<p><strong>Mobile Development</strong>
+React Native, JavaScript, TypeScript, Swift, SwiftUI, UIKit, Kotlin, Cross-platform mobile applications, Performance optimization, Client-facing mobile applications</p>
+<p><strong>DevOps &amp; CI/CD</strong>
+CI/CD (Continuous Integration / Continuous Deployment), DevOps automation, Release Management, Configuration Management, EAS, Git-based workflows, Build and deployment pipelines, Azure DevOps (transferable pipeline experience)</p>
+<p><strong>Backend &amp; API Integration</strong>
+REST APIs, GraphQL, Secure API Integration, AWS Lambda, Firebase, API development, Downstream system integration patterns</p>
+<p><strong>Security &amp; Governance</strong>
+Mobile Security Best Practices, Secure data handling, Authentication workflows, App Store configuration and developer account management, Documentation and deployment procedures, Alignment with security and data privacy guidelines</p>
+<p><strong>Testing &amp; Quality Engineering</strong>
+Unit testing, System Integration Testing, Jest, XCTest, Cross-platform testing, Regression testing</p>
+<p><strong>Tools &amp; Platforms</strong>
+AWS, Lambda, Firebase, Stripe payments, Git, Expo, CoreData</p>
+<hr>
+<h3>Professional Experience</h3>
+<p><strong>Art Flaneur | Full Stack Developer (Freelance) | Melbourne, VIC | Nov 2025 – Present</strong></p>
+<ul>
+<li>Architected and maintained a client-facing mobile ticketing system integrated with secure backend services and downstream applications.</li>
+<li>Engineered configuration changes to resolve GraphQL payment service build failures, improving reliability of Dev and Test environments.</li>
+<li>Implemented unit testing and system integration testing to ensure regression-free deployments aligned with structured release processes.</li>
+<li>Standardized local development workflows and deployment procedures to reduce reliance on cloud-only environments.</li>
+<li>Maintained documentation aligned with development and deployment standards.</li>
+</ul>
+<p><strong>Business Local | Full Stack Developer | Melbourne, VIC | Jul 2025 – Nov 2025</strong></p>
+<ul>
+<li>Integrated Android mobile application with backend APIs using structured API integration patterns.</li>
+<li>Delivered real-time communication functionality using WebSocket-based solutions to enhance responsiveness and user experience.</li>
+<li>Collaborated with cross-functional teams to ensure seamless backend–frontend integration and application performance optimization.</li>
+<li>Contributed within Agile sprint cycles, adapting to evolving priorities in a fast-paced business environment.</li>
+</ul>
+<p><strong><a href="http://Kois.ai">Kois.ai</a> | Senior React Native Developer | Melbourne, VIC | Jun 2024 – Dec 2024</strong></p>
+<ul>
+<li>Built and maintained high-performance, scalable mobile applications using React Native across Android and iOS.</li>
+<li>Implemented Clean Architecture and MVVM patterns to support maintainability and governance standards.</li>
+<li>Integrated mobile apps with backend services through secure API integration.</li>
+<li>Led code reviews and established best practices for mobile app development aligned with quality and configuration management standards.</li>
+<li>Contributed to DevOps automation improvements and structured deployment workflows.</li>
+</ul>
+<p><strong>QBurst Technologies | Lead Software Developer – iOS | Kochi | Aug 2022 – Jan 2024</strong></p>
+<ul>
+<li>Led iOS development initiatives, optimizing application performance and responsiveness across devices.</li>
+<li>Governed code quality standards through structured reviews and mentoring.</li>
+<li>Collaborated with UI and backend teams to deliver end-to-end mobile solutions for enterprise clients.</li>
+<li>Contributed to structured release and change management processes.</li>
+</ul>
+<p><strong>PinMicro | Senior Mobile Developer | Kochi | Jun 2021 – Jul 2022</strong></p>
+<ul>
+<li>Engineered BLE and UWB integrations for enterprise-grade mobile applications.</li>
+<li>Designed offline-first mobile architecture using CoreData to ensure reliable data handling.</li>
+<li>Managed App Store configuration, developer account processes, and release submissions with high first-time approval rate.</li>
+<li>Optimized performance and battery-level monitoring features for enhanced user experience.</li>
+</ul>
+<p><strong>Logical Steps Interactive Solutions | Mobile Application Developer | Kochi | Dec 2015 – Jun 2021</strong></p>
+<ul>
+<li>Developed and maintained consumer mobile applications for iOS and React Native platforms.</li>
+<li>Integrated push notifications, video calling, and secure API-driven features.</li>
+<li>Managed App Store deployments, release documentation, and ongoing software maintenance.</li>
+<li>Collaborated across teams to deliver user-friendly mobile solutions aligned with client requirements.</li>
+</ul>
+<hr>
+<h3>Education</h3>
+<p>Bachelor of Electronics and Communication Engineering
+Mahatma Gandhi University | 2010 – 2014</p>
+<hr>
 
 
 </body>

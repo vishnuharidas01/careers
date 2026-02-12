@@ -8,7 +8,7 @@
     "linkedin": "https://www.linkedin.com/in/vishnu-haridas-591837109/",
     "github": "https://github.com/vishnuharidas01"
   },
-  "summary": "Mobile Lead Developer with 9+ years of experience delivering enterprise-grade mobile applications using React Native and native iOS/Android. Experienced in scalable architecture, CI/CD, cloud integration, and mentoring teams.",
+  "summary": "Senior Mobile Engineer with 9+ years of experience delivering secure, high-performance client-facing mobile applications across iOS and Android. Expertise in React Native, mobile architecture, CI/CD automation, API integration, and performance optimization. Experienced in aligning development practices with enterprise governance, security, and release management standards.",
   "skills": {
     "mobile": [
       "React Native",
@@ -26,9 +26,14 @@
       "Lambda",
       "GraphQL",
       "Firebase",
-      "API development"
+      "API development",
+      "REST APIs",
+      "Secure API Integration"
     ],
     "tooling": [
+      "Continuous Integration",
+      "Continuous Deployment",
+      "Release Management",
       "Git",
       "Jest",
       "CI/CD",
@@ -40,7 +45,9 @@
       "IoT",
       "Offline storage",
       "CoreData",
-      "Unit testing"
+      "Unit testing",
+      "Mobile Security Best Practices",
+      "System Integration Testing"
     ]
   },
   "experience": [
@@ -51,7 +58,7 @@
       "start": "2025-11",
       "end": "Present",
       "highlights": [
-        "Developing ticketing system for mobile app",
+        "Architecting and maintaining client-facing mobile ticketing system integrated with secure backend services",
         "Resolved GraphQL payment service build failures",
         "Enabled local development without AWS AppSync",
         "Implemented unit tests with 100% pass rate"
@@ -79,7 +86,7 @@
         "Built scalable React Native apps using Expo",
         "Implemented MVVM/Clean architecture",
         "Integrated LLM features",
-        "Mentored developers and improved testing"
+        "Led code reviews and established mobile development best practices aligned with quality and governance standards"
       ]
     },
     {

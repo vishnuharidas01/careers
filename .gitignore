@@ -93,3 +93,5 @@ jspm_packages/
 # apple
 .DS_Store
 ._*
+.tmp/
+
