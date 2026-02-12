@@ -1,0 +1,28 @@
+---
+layout: layouts/base.njk
+---
+<h1>{{ title }}</h1>
+<p class="muted">
+  {{ company }} — {{ role }}{% if location %} · {{ location }}{% endif %}
+</p>
+
+<div class="card">
+  <h2>Summary</h2>
+  {{ content | safe }}
+</div>
+
+{% if contact and (contact.email or contact.linkedin) %}
+  <div class="card">
+    <h2>Contact</h2>
+    {% if contact.email %}<div>Email: <a href="mailto:{{ contact.email }}">{{ contact.email }}</a></div>{% endif %}
+    {% if contact.linkedin %}<div>LinkedIn: <a href="{{ contact.linkedin }}" target="_blank" rel="noopener">{{ contact.linkedin }}</a></div>{% endif %}
+  </div>
+{% endif %}
+
+{% if downloads and downloads.resumePdf %}
+  <div class="card">
+    <h2>Downloads</h2>
+    <div><a href="{{ downloads.resumePdf }}">Resume (PDF)</a></div>
+    {% if downloads.coverPdf %}<div><a href="{{ downloads.coverPdf }}">Cover letter (PDF)</a></div>{% endif %}
+  </div>
+{% endif %}
