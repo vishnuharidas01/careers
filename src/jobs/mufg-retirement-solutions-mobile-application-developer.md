@@ -13,8 +13,8 @@ contact:
 # IMPORTANT: After you generate PDFs + upload to Google Drive,
 # replace these with Drive share links (not local paths)
 downloads:
-  resumeUrl: "/downloads/mufg-retirement-solutions-mobile-application-developer-resume.pdf"
-  coverLetterUrl: "/downloads/mufg-retirement-solutions-mobile-application-developer-cover-letter.pdf"
+  resumeUrl: "/careers/downloads/mufg-retirement-solutions-mobile-application-developer-resume.pdf"
+  coverLetterUrl: "/careers/downloads/mufg-retirement-solutions-mobile-application-developer-cover-letter.pdf"
 ---
 
 ## Summary
