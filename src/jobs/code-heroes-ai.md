@@ -1,8 +1,8 @@
 ---
 layout: layouts/job.njk
-title: "Vishnu Haridas — AI"
+title: "Vishnu Haridas"
 company: "Code Heroes"
-role: "AI"
+role: "AI Aware Flutter Developer"
 slug: "code-heroes-ai"
 date: "2026-02-14"
 contact:
